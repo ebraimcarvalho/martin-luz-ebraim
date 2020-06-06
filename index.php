@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste Martin Luz - Ebraim Carvalho</title>
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/slick-1.8.1/slick/slick-theme.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/build/styles/index.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div id="container1__text" class="col-lg-6 order-2 order-lg-1 mt-lg-4">
+        <h1 class="pt-lg-4 pr-lg-4" id="container1__title">
+          Reembolsos corporativos de forma simples e rápida.
+          <span>Como deve ser.</span>
+        </h1>
+        <p id="container1__description" class="">Acabe com a dor de cabeça da gestão de despesas do dia a dia da sua empresa: pagamentos, reembolsos, compras
+          on-line e gestão do fundo fixo. Controle seus gastos escaneando notas fiscais, acompanhando aprovações,
+          visualizando relatórios e muito mais!</p>
+        <div class="text-center text-lg-left">
+          <button id="container1__button" class="btn">Peça já sua proposta</button>
+          <p id="container1__advice" class="text-primary mt-3">Responderemos <strong>em até 24h.</strong></p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 order-1">
+        <img id="container1__image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/large-Header_3d_3 1.png" alt="Martin Luz">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row mt-lg-0">
+
+      <div class="col-lg-7 container2">
+        <button id="container2__video" href="#" class="btn btn-lg btn-block h-100 btn-video" data-toggle="modal" data-target="#videoModal"
+          data-theVideo="http://www.youtube.com/embed/loFtozxZG0s"></button>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Video</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <div id="div-iframe" class="embed-responsive embed-responsive-16by9">
+                  <iframe id="init-iframe" class="embed-responsive-item" width="100%" height="350" src="" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary lock" data-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 mt-4 mt-lg-3 pl-lg-5 py-lg-3">
+        <h2 id="container2__title">Assuma agora o <span>controle dos gastos</span> variáveis da sua empresa</h2>
+        <p id="container2__description" class="mt-3 mt-lg-3">O BPP Corp é uma solução única para a administração de gastos corporativos que conta com uma conta digital empresarial grátis, cartões VISA pré-pagos para controle total das despesas e um aplicativo sem custos adicionais para tornar seu controle financeiro mais simples e prático! </p>
+        <a href="#" id="container2__link--small-screen" class="d-lg-none">Peça já sua proposta <img id="container2__icon--small-screen" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Vector.png" alt="Arrow"></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="container3" class="container mt-4 mt-lg-5">
+    <div>
+      <div class="row justify-content-between">
+
+        <div class="col-lg-6 pt-4 pl-lg-5">
+          <h1 id="container3__title" class="text-white"><span>Organizar reembolsos</span> da sua empresa nunca foi tão rápido</h1>
+          <p id="container3__description" class="text-white">Utilizando BPP Corp, você tem controle total sobre o budget de sua equipe podendo realizar transferências instantâneas para os cartões corporativos dos colaboradores, acompanhar gastos, receber comprovantes e visualizar relatórios que organizam seu reembolso. </p>
+          <button id="container3__button" class="btn d-none d-lg-block">Peça já sua proposta</button>
+          <a href="#" id="container3__link--small-screen" class="text-white d-lg-none">Peça já sua proposta <img id="container3__icon--small-screen" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Vector white.png" alt="Arrow"></a>
+        </div>
+
+        <div class="col-lg-6">
+          <div>
+            <img id="container3__image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bpp_corp_reembolso 1.png" alt="Martin Luz">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="container4" class="container mt-lg-5">
+    <div class="container pb-4 pb-lg-5 pt-5">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h3 id="container4__title" class="text-center px-2">A plataforma que ajuda a <span>reduzir os gastos</span> do dia a dia</h3>
+          <p id="container4__description" class="text-center pt-3 pt-lg-0 px-lg-5">Simplifique a gestão das despesas, evitando a perda de tempo com comprovantes e planilhas, reduzindo custos e aumentando os resultados da sua empresa.</p>
+        </div>
+      </div>
+
+      <div id="container4__grid--large-screen" class="row mt-2 mt-lg-5 d-none d-lg-flex">
+        <div class="col-lg-4 pl-lg-4 mb-lg-5">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item1-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Group.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item1-title">Mais rapidez na gestão das suas despesas</h3>
+            <p id="container4__grid--item1-description">Para que seu negócio cresça de maneira inteligente e rápida, substitua os processos demorados de reembolsos, aprovações, criação de relatórios e etc. por uma plataforma que te oferece tudo isso de forma rápida e digital. </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item2-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_RELATORIO 2.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item2-title">Os relatórios que você precisa em um único lugar</h3>
+            <p id="container4__grid--item2-description">Encontre relatórios detalhados sobre as utilizações de cada cartão corporativo cadastrado em sua equipe. Confira o saldo de cada cartão, redistribua valores, faça transferências instantâneas e não perca tempo com formulários e planilhas. </p>
+          </div>
+        </div>
+        <div class="col-lg-4 pr-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item3-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_ORGANIZE 1.svg" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item3-title">Organize todos os seus comprovantes</h3>
+            <p id="container4__grid--item3-description">Recebendo os comprovantes de gastos de seus colaboradores através da plataforma, você não precisa mais guardar comprovantes e notas fiscais em lugar nenhum. Os gastos podem ser classificados por tipo ou por projeto, da forma que você precisar.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 pl-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item4-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_FOTO COMPROVANTE 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item4-title">Apresente suas despesas com um só clique</h3>
+            <p id="container4__grid--item4-description">Enviar seus comprovantes é mais simples do que você imagina. Basta que o colaborador tire uma foto do cupom fiscal com seu smartphone através do aplicativo BPP Card. O gestor das despesas pode aprovar ou reprovar aquele gasto através do App.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item5-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_CARTAO PRE PAGO 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item5-title">Controle seus gastos com cartões pré-pagos VISA</h3>
+            <p id="container4__grid--item5-description">Os cartões pré-pago BPP Corp são fáceis de controlar: o colaborador só gasta o que a empresa disponibiliza para compras online ou em lojas físicas. Conte com cartões VISA aceitos em mais de 30 milhões de estabelecimentos no mundo todo, incluindo sites e aplicativos!</p>
+          </div>
+        </div>
+        <div class="col-lg-4 pr-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__grid--item6-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_CONTA DIGITAL 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__grid--item6-title">Conta digital gratuita e exclusiva para sua empresa</h3>
+            <p id="container4__grid--item6-description">Oferecemos uma conta digital gratuita especialmente para gerenciar despesas.  Transfira o saldo de sua conta para os cartões de maneira instantânea, sempre livre de taxas de manutenção ou de juros.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="container4__carousel--small-screen" class="row mt-2 mt-lg-5 d-lg-none carousel">
+        <div class="col-lg-4 pl-lg-4 mb-lg-5">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item1-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Group.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__carousel--item1-title">Mais rapidez na gestão das suas despesas</h3>
+            <p id="container4__carousel--item1-description">Para que seu negócio cresça de maneira inteligente e rápida, substitua os processos demorados de reembolsos, aprovações, criação de relatórios e etc. por uma plataforma que te oferece tudo isso de forma rápida e digital. </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item2-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_RELATORIO 2.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3  id="container4__carousel--item2-title">Os relatórios que você precisa em um único lugar</h3>
+            <p id="container4__carousel--item2-description">Encontre relatórios detalhados sobre as utilizações de cada cartão corporativo cadastrado em sua equipe. Confira o saldo de cada cartão, redistribua valores, faça transferências instantâneas e não perca tempo com formulários e planilhas. </p>
+          </div>
+        </div>
+        <div class="col-lg-4 pr-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item3-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_ORGANIZE 1.svg" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__carousel--item3-title">Organize todos os seus comprovantes</h3>
+            <p id="container4__carousel--item3-description">Recebendo os comprovantes de gastos de seus colaboradores através da plataforma, você não precisa mais guardar comprovantes e notas fiscais em lugar nenhum. Os gastos podem ser classificados por tipo ou por projeto, da forma que você precisar.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 pl-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item4-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_FOTO COMPROVANTE 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__carousel--item4-title">Apresente suas despesas com um só clique</h3>
+            <p id="container4__carousel--item4-description">Enviar seus comprovantes é mais simples do que você imagina. Basta que o colaborador tire uma foto do cupom fiscal com seu smartphone através do aplicativo BPP Card. O gestor das despesas pode aprovar ou reprovar aquele gasto através do App.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item5-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_CARTAO PRE PAGO 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__carousel--item5-title">Controle seus gastos com cartões pré-pagos VISA</h3>
+            <p id="container4__carousel--item5-description">Os cartões pré-pago BPP Corp são fáceis de controlar: o colaborador só gasta o que a empresa disponibiliza para compras online ou em lojas físicas. Conte com cartões VISA aceitos em mais de 30 milhões de estabelecimentos no mundo todo, incluindo sites e aplicativos!</p>
+          </div>
+        </div>
+        <div class="col-lg-4 pr-lg-4">
+          <div class="text-center icon-card">
+            <img id="container4__carousel--item6-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/20200109_BPP_CORP_LP ICONS_CONTA DIGITAL 1.png" alt="Icon">
+          </div>
+          <div class="text-center mt-3">
+            <h3 id="container4__carousel--item6-title">Conta digital gratuita e exclusiva para sua empresa</h3>
+            <p id="container4__carousel--item6-description">Oferecemos uma conta digital gratuita especialmente para gerenciar despesas.  Transfira o saldo de sua conta para os cartões de maneira instantânea, sempre livre de taxas de manutenção ou de juros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="container5" class="mt-4 mb-5 my-lg-5">
+    <div class="container pt-3 pt-lg-5">
+      <div class="row justify-content-center align-items-center">
+  
+        <div class="col-lg-6 mt-4 mt-lg-0 mr-lg-5 order-2 order-lg-1">
+          <div class="row div-company__card mb-2 mb-lg-3 mx-2 mx-lg-5">
+            <div class="col mr-2 mr-lg-3 div-company">
+              <img id="container5__item1-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Rectangle 9.svg" alt="parceiro burger king">
+            </div>
+            <div class="col div-company">
+              <img id="container5__item2-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Rectangle 10.svg" alt="parceiro boticario">
+            </div>
+          </div>
+
+          <div class="row div-company__card mb-2 mx-2 mx-lg-5">
+            <div class="col mr-2 mr-lg-3 div-company">
+              <img id="container5__item3-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Rectangle 12.svg" alt="parceiro cacau show">
+            </div>
+            <div class="col div-company">
+              <img id="container5__item4-image" class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Rectangle 11.svg" alt="parceiro pague menos">
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-5 ml-lg-3 order-1">
+          <h3 id="container5__title">Conheça quem já conta com as <span>vantagens exclusivas</span> do BPP Corp</h3>
+          <p id="container5__description">A empresas mais bem-sucedidas do mundo, grandes e pequenas, confiam no BPP Corp para reduzir custos com organização dos gastos da suas empresas. </p>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+  <div id="container6">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h3 id="container6__title" class="mt-4 mt-lg-5">Compare e <span>decida agora</span> mesmo</h3>
+          <p id="container6__description">Substitua o uso do dinheiro em espécie pelo BPP Corp e ganhe segurança e praticidade, evitando roubos e perdas, tendo uma plataforma única para gerir suas despesas. </p>
+        </div>
+      </div>
+
+      <div class="row mt-lg-5 d-flex align-items-center">
+        <div class="col-lg compare1">
+          <div class="text-center icon-compare">
+            <img id="container6__item1--image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Group 179.png" alt="Dinheiro em papel">
+          </div>
+          <h3 id="container6__item1--title" class="text-center mt-2 title__li1">Dinheiro em papel</h3>
+          <ul class="list-unstyled text-center">
+            <li id="container6__item1--li1" class="mt-3 li1">Saque de dinheiro em papel para as despesas </li>
+            <li id="container6__item1--li2" class="mt-3 li1">Várias notas fiscais em papel</li>
+            <li id="container6__item1--li3" class="mt-3 li1">Diversas planilhas de gestão</li>
+            <li id="container6__item1--li4" class="mt-3 li1">Problemas de contabilização dos gastos</li>
+            <li id="container6__item1--li5" class="mt-3 li1">Não tem segurança</li>
+          </ul>
+        </div>
+        <div class="col-lg mt-4 mt-lg-0">
+          <div class="text-center icon-compare">
+            <img id="container6__item2--image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/Group 180.png" alt="BPP Corp">
+          </div>
+          <h3 id="container6__item2--title" class="text-center mt-2 title__li2">BPP Corp</h3>
+          <ul class="list-unstyled text-center">
+            <li id="container6__item2--li1" class="mt-3 li2">Faça pagamentos com o BPP Corp sem precisar tirar dinheiro</li>
+            <li id="container6__item2--li2" class="mt-3 li2">Prestação de contas sem papel, via app</li>
+            <li id="container6__item2--li3" class="mt-3 li2">Relatórios completos em um único lugar</li>
+            <li id="container6__item2--li4" class="mt-3 li2">Controle dos gastos com cartões pré-pago</li>
+            <li id="container6__item2--li5" class="mt-3 li2">Segurança total do seu dinheiro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="container7" class="bg-44 container mt-4 mt-lg-5 pt-lg-3">
+    <div class="text-center text-white pt-5">
+      <h3 id="container7__title">A sua gestão financeira nunca foi tão fácil. </h3>
+      <p id="container7__description">Conte com as soluções do BPP Corp e facilite o controle dos gastos da sua empresa agora mesmo.</p>
+      <button id="container7__button" class="btn mt-3">Peça já sua proposta</button>
+      <p id="container7__description-small" class="mt-2">Proposta <span>grátis</span> e sem compromisso.</p>
+    </div>
+  </div>
+
+  <div id="container8" class="container mt-4 mt-lg-5">
+    <div class="container">
+      <div class="row">
+        <p id="container8__description" class="mt-3"><span>Últimos posts</span></p>
+      </div>
+      <div id="container8__posts" class="row justify-content-between mt-3">
+        <div id="container8__item1--image" class="col-md bg-34 text-white d-flex align-items-end">
+          <p id="container8__item1--description">Apenas duas linhas de texto no blog para padronizar os cards</p>
+        </div>
+        <div id="container8__item2--image" class="col-md mx-md-5 my-4 my-md-0 bg-34 text-white d-flex align-items-end">
+          <p id="container8__item2--description">Apenas duas linhas de texto no blog para padronizar os cards</p>
+        </div>
+        <div id="container8__item3--image" class="col-md bg-34 text-white d-flex align-items-end">
+          <p id="container8__item3--description">Apenas duas linhas de texto no blog para padronizar os cards</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-lg my-4 my-lg-4">
+      <div class="container">
+        <div class="row justify-content-lg-around">
+          <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start">
+            <p id="footer__description" class="h4 mt-lg-1">Esta página foi útil?</p>
+          </div>
+          <div class="col-lg-4 pt-3 pt-lg-0 d-flex justify-content-center justify-content-lg-end">
+            <img id="footer__icon1" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/sad.svg" alt="icon">
+            <img id="footer__icon2" class="mx-3" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/sad2.svg" alt="icon">
+            <img id="footer__icon3" class="mr-3" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/happy.svg" alt="icon">
+            <img id="footer__icon4" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/happy2.svg" alt="icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js">
+  </script>
+  <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/slick-1.8.1/slick/slick.min.js"></script>
+				
+
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/main.js"></script>
+</body>
+
+</html>
