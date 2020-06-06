@@ -331,7 +331,7 @@
     <div class="container-lg my-4 my-lg-4">
       <div class="container">
         <div class="row justify-content-lg-around">
-          <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start">
+          <div class="col-lg-5 d-flex justify-content-center justify-content-lg-start">
             <p id="footer__description" class="h4 mt-lg-1">Esta página foi útil?</p>
           </div>
           <div class="col-lg-4 pt-3 pt-lg-0 d-flex justify-content-center justify-content-lg-end">
